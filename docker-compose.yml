@@ -1,9 +1,0 @@
-version: "3"
-services:
-  dockerlab:
-    container_name: lab2_container
-    build: .
-    volumes:
-      - ./index:/var/www/html
-    ports:
-      - "4000:4000"
